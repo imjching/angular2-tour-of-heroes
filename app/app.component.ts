@@ -7,7 +7,7 @@ import { DashboardComponent } from './dashboard.component';
 import { HeroDetailComponent } from './hero-detail.component';
 
 @Component({
-  selector: 'my-app';
+  selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
     <nav>
@@ -18,7 +18,7 @@ import { HeroDetailComponent } from './hero-detail.component';
   `,
   styleUrls: ['app/app.component.css'],
   directives: [ROUTER_DIRECTIVES],
-  providers: [ROUTER_PROVIDERS, HeroService],
+  providers: [ROUTER_PROVIDERS, HeroService]
 })
 
 @RouteConfig([
